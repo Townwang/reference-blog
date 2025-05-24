@@ -10,10 +10,10 @@ export default defineConfig({
       { text: '首页', link: '/' },
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/HdShare/TencentVersion' }
+      { icon: 'github', link: 'https://github.com/Townwang' }
     ],
     footer: {
-      copyright: "版权所有 © 2024-2025 <a href='https://github.com/HdShare'>HdShare</a>"
+      copyright: "版权所有 © 2024-2025 <a href='https://github.com/Townwang'>Townwang</a>"
     },
   }
 })

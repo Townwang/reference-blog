@@ -2,23 +2,23 @@
 layout: home
 
 hero:
-  name: "TencentVersion"
-  text: "腾讯版本"
-  tagline: 随缘更新
+  name: "开源人"
+  text: "开源项目集结"
+  tagline: 维护与不维护版本
 
 features:
-  - title: QQ
-    details: v9.1.76 ~ v8.9.58
-    linkText: Open
-    link: /version/qq
+  - title: 妖火APP <Badge type="warning" text="暂停维护" />
+    details: 一个基于安卓本地爬虫封装的论坛类APP.
+    linkText: Download
+    link: /download/yaohuo
 
-  - title: Tim
-    details: v4.0.99 ~ v3.4.8
-    linkText: Open
-    link: /version/tim
+  - title: AwemeTown <Badge type="danger" text="停止维护" />
+    details: Hook抖音插件，破解15秒限制 
+    linkText: Download
+    link: /download/awemetown
 
-  - title: WeChat
-    details: v8.0.58 ~ v5.3.1
-    linkText: Open
-    link: /version/wechat
+  - title: Log <Badge type="tip" text="lib" />
+    details: Breaking android log word limits and automatically formatting json.
+    linkText: Download
+    link: /download/log
 ---
