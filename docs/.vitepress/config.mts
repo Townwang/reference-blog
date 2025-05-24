@@ -1,7 +1,6 @@
-//import { defineConfig } from 'vitepress'
-import { withMermaid } from 'vitepress-plugin-mermaid'
+import { defineConfig } from 'vitepress'
 
-export default withMermaid({
+export default defineConfig({
   title: "开源人",
   description: "开源项目",
   lang: "zh-Hans",
