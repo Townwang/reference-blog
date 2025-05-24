@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "bintray",
-  description: "bintray gradle",
+  title: "reference",
+  description: "reference",
   lang: "zh-Hans",
-  base: '/test/'
+  base: '/reference-blog/'
 })
