@@ -6,6 +6,22 @@ hero:
   text: ""
   tagline: reference
 ---
-<div class="sekuai" style="background: #FFFFCC;" data-date="#FFFFCC"></div>
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
 
-<div class="sekuai" style="background: #CCFFFF;" data-date="#CCFFFF"></div>
+const members = [
+  {
+    avatar: 'https://github.com/townwang.png',
+    name: 'Townwang',
+    title: 'Developer',
+    links: [
+      { icon: 'github', link: 'https://github.com/townwang' },
+      { icon: 'twitter', link: 'https://twitter.com/townwang' }
+    ]
+  },
+  ...
+]
+</script>
+
+
+<VPTeamMembers size="small" :members />
