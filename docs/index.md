@@ -13,7 +13,7 @@ const coreMembers = [
 	{
 		avatar: 'https://github.com/townwang.png',
 		name: 'Townwang',
-		title: 'Developer',
+		title: 'Mobile Developer',
 		links: [
 		  { icon: 'github', link: 'https://github.com/townwang' },
 		  { icon: 'twitter', link: 'https://twitter.com/townwang' }
@@ -22,12 +22,11 @@ const coreMembers = [
   ]
 const partners = [	
 	{
-		avatar: 'https://github.com/townwang.png',
-		name: 'Townwang',
-		title: 'Developer',
+		avatar: 'https://github.com/icbk.png',
+		name: 'icbk',
+		title: 'Api Developer',
 		links: [
-		  { icon: 'github', link: 'https://github.com/townwang' },
-		  { icon: 'twitter', link: 'https://twitter.com/townwang' }
+		  { icon: 'github', link: 'https://github.com/icbk' }
 		]
 	}
 	]
