@@ -1,29 +1,49 @@
 ---
 layout: page
-
-hero:
-  name: ""
-  text: ""
-  tagline: reference
-
 ---
-
-
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme'
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamMembers,
+  VPTeamPageSection
+} from 'vitepress/theme'
 
-const members = [
-  {
-    avatar: 'https://github.com/townwang.png',
-    name: 'Townwang',
-    title: 'Developer',
-    links: [
-      { icon: 'github', link: 'https://github.com/townwang' },
-      { icon: 'twitter', link: 'https://twitter.com/townwang' }
-    ]
-  }
-]
+const coreMembers = [ 
+	{
+		avatar: 'https://github.com/townwang.png',
+		name: 'Townwang',
+		title: 'Developer',
+		links: [
+		  { icon: 'github', link: 'https://github.com/townwang' },
+		  { icon: 'twitter', link: 'https://twitter.com/townwang' }
+		]
+	}
+  ]
+const partners = [	
+	{
+		avatar: 'https://github.com/townwang.png',
+		name: 'Townwang',
+		title: 'Developer',
+		links: [
+		  { icon: 'github', link: 'https://github.com/townwang' },
+		  { icon: 'twitter', link: 'https://twitter.com/townwang' }
+		]
+	}
+	]
 </script>
 
-
-<VPTeamMembers size="small" :members />
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title>Our Team</template>
+    <template #lead>...</template>
+  </VPTeamPageTitle>
+  <VPTeamMembers size="medium" :members="coreMembers" />
+  <VPTeamPageSection>
+    <template #title>Partners</template>
+    <template #lead>...</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="partners" />
+    </template>
+  </VPTeamPageSection>
+</VPTeamPage>
