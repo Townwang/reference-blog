@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "TencentVersion",
-  description: "TencentVersion",
+  title: "test",
+  description: "test",
   lang: "zh-Hans",
-  base: '/TencentVersion/',
+  base: '/test/',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
