@@ -23,10 +23,3 @@ features:
     linkText: Download
     link: /download/log
 ---
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
