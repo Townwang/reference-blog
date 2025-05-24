@@ -14,13 +14,6 @@ hero:
 ### 组合一
 | 颜色代码 | 颜色展示 |
 | ---- | ---- |
-| #FFFFCC | <span style="background - color: #FFFFCC; display: inline - block; width: 50px; height: 30px;"></span> |
-| #CCFFFF | <span style="background - color: #CCFFFF; display: inline - block; width: 50px; height: 30px;"></span> |
-| #FFCCCC | <span style="background - color: #FFCCCC; display: inline - block; width: 50px; height: 30px;"></span> |
-
-### 组合二
-| 颜色代码 | 颜色展示 |
-| ---- | ---- |
-| #99CCCC | <span style="background - color: #99CCCC; display: inline - block; width: 50px; height: 30px;"></span> |
-| #FFCC99 | <span style="background - color: #FFCC99; display: inline - block; width: 50px; height: 30px;"></span> |
-| #FFCCCC | <span style="background - color: #FFCCCC; display: inline - block; width: 50px; height: 30px;"></span> |
+| #FFFFCC | <span style="background - color: #FFFFCC; display: inline - block; width: 80px; height: 30px;"></span> |
+| #CCFFFF | <span style="background - color: #CCFFFF; display: inline - block; width: 80px; height: 30px;"></span> |
+| #FFCCCC | <span style="background - color: #FFCCCC; display: inline - block; width: 80px; height: 30px;"></span> |
