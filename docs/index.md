@@ -3,11 +3,14 @@ layout: home
 
 hero:
   name: "开源人"
-  text: "开源项目集结"
-  tagline: 维护与不维护版本
+  text: ""
+  tagline: 开源项目集结
+
+
+### 妖火APP <Badge type="warning" text="暂停维护" />
 
 features:
-  - title: 妖火APP <Badge type="warning" text="暂停维护" />
+  - title: ### 妖火APP <Badge type="warning" text="暂停维护" />
     details: 一个基于安卓本地爬虫封装的论坛类APP.
     linkText: Download
     link: /download/yaohuo
