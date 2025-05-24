@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: "AwemeTown"
-  text: "Hook抖音插件，破解15秒限制 "
+  name: ""
+  text: ""
   tagline: 
 
 
@@ -13,3 +13,7 @@ features:
     linkText: download
     link: 
 ---
+
+### AwemeTown <Badge type="danger" text="停止维护" />
+
+Hook抖音插件，破解15秒限制 

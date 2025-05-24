@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "log"
+  name: ""
   text: "Breaking android log word limits and automatically formatting json."
   tagline: 
 
@@ -13,3 +13,4 @@ features:
     linkText: download
     link: 
 ---
+## Log <Badge type="tip" text="lib" />

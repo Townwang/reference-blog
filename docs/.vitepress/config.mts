@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "test",
-  description: "test",
+  title: "开源人",
+  description: "开源项目",
   lang: "zh-Hans",
   base: '/test/',
   themeConfig: {
