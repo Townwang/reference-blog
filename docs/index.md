@@ -18,8 +18,7 @@ const members = [
       { icon: 'github', link: 'https://github.com/townwang' },
       { icon: 'twitter', link: 'https://twitter.com/townwang' }
     ]
-  },
-  ...
+  }
 ]
 </script>
 
