@@ -18,9 +18,7 @@ const coreMembers = [
 		  { icon: 'github', link: 'https://github.com/townwang' },
 		  { icon: 'twitter', link: 'https://twitter.com/townwang' }
 		]
-	}
-  ]
-const partners = [	
+	},
 	{
 		avatar: 'https://github.com/icbk.png',
 		name: 'icbk',
@@ -29,6 +27,9 @@ const partners = [
 		  { icon: 'github', link: 'https://github.com/icbk' }
 		]
 	}
+  ]
+const partners = [	
+	
 	]
 </script>
 
